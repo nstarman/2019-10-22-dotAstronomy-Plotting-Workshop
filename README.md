@@ -82,21 +82,23 @@ For most, [Matplotlib](https://matplotlib.org) is the place to start and end. Ma
 There are numerous plotting libraries which attempt to address Matplotlib's shortcomings. To name but a few:
 
 - [Seaborn](https://seaborn.pydata.org)
-> "Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics." ([Seaborn](https://seaborn.pydata.org))
+	> "Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics." ([Seaborn](https://seaborn.pydata.org))
 	- Note: Seaborn is built on top of Matplotlib and can very easily be used to clean up and augment Matplotlib plots.
+
 - [Bokeh](https://bokeh.pydata.org/en/latest/)
-> "Bokeh is an interactive visualization library that targets modern web browsers for presentation. Its goal is to provide elegant, concise construction of versatile graphics, and to extend this capability with high-performance interactivity over very large or streaming datasets. Bokeh can help anyone who would like to quickly and easily create interactive plots, dashboards, and data applications." ([Bokeh](https://bokeh.pydata.org/en/latest/))
+	> "Bokeh is an interactive visualization library that targets modern web browsers for presentation. Its goal is to provide elegant, concise construction of versatile graphics, and to extend this capability with high-performance interactivity over very large or streaming datasets. Bokeh can help anyone who would like to quickly and easily create interactive plots, dashboards, and data applications." ([Bokeh](https://bokeh.pydata.org/en/latest/))
 
 - [MPLD3](http://mpld3.github.io/index.html) for a way to make interactive Matplotlib plots.
-> "The mpld3 project brings together Matplotlib, the popular Python-based graphing library, and D3js, the popular JavaScript library for creating interactive data visualizations for the web. The result is a simple API for exporting your matplotlib graphics to HTML code which can be used within the browser, within standard web pages, blogs, or tools such as the IPython notebook." ([MPLD3](http://mpld3.github.io/index.html))
+	> "The mpld3 project brings together Matplotlib, the popular Python-based graphing library, and D3js, the popular JavaScript library for creating interactive data visualizations for the web. The result is a simple API for exporting your matplotlib graphics to HTML code which can be used within the browser, within standard web pages, blogs, or tools such as the IPython notebook." ([MPLD3](http://mpld3.github.io/index.html))
 
 	- Note: this can be used to augment existing matplotlib codes.
 
 - [Altair](https://altair-viz.github.io/index.html)
-> "a declarative statistical visualization library for Python, based on Vega and Vega-Lite." ([Altair](https://altair-viz.github.io/index.html))
+	> "a declarative statistical visualization library for Python, based on Vega and Vega-Lite." ([Altair](https://altair-viz.github.io/index.html))
 
 - [Plotly](https://plot.ly)
-> "Plotly is a collaborative browser-based plotting and analytics platform. You can generate graphs and analyze data from the in-browser Python sandbox (numpy supported) or the Plotly API (download here). Plotly supports interactive graphs with IPython notebooks. Graphs are interactive, can be styled with Python or the GUI, and sharable by link. Scripts, graphs, and data can be shared, collaboratively edited, and stored and run in Plotly." ([Python Wiki](https://wiki.python.org/moin/NumericAndScientific/Plotting))
+	> "Plotly is a collaborative browser-based plotting and analytics platform. You can generate graphs and analyze data from the in-browser Python sandbox (numpy supported) or the Plotly API (download here). Plotly supports interactive graphs with IPython notebooks. Graphs are interactive, can be styled with Python or the GUI, and sharable by link. Scripts, graphs, and data can be shared, collaboratively edited, and stored and run in Plotly." ([Python Wiki](https://wiki.python.org/moin/NumericAndScientific/Plotting))
+
 - etc...
 
 For a long enumeration of other available plotting libraries, see the list maintained at the [Python Wiki](https://wiki.python.org/moin/NumericAndScientific/Plotting). Unfortunately, we will not have time to explore any of these great resources except Plotly. Why Plotly? One, because I like it. Two, because after its major overhaul it is now a powerful and straitforward library. And three, because Plotly produces HTML plots which can be easily integrated into website and other public facing media and can also be integrated with some incredible tools, like [Dash](https://dash-gallery.plotly.host/Portal/) (more on that later).
