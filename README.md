@@ -12,7 +12,15 @@ Welcome to the 11th .Astronomy Conference! For the conference website, [click he
 
 Author: **Nathaniel Starkman** - *Graduate Student @ UofT* - [website](http://www.astro.utoronto.ca/~starkman/) -- [github](https://github.com/nstarman)
 
-Scientific Organization Committee: Renée Hložek (Co-Chair), Bryan Gaensler (Co-Chair), Katie Breivik, Siqi Liu, Tina Peters, Mubdi Rahman, Michael Reid, Nathaniel Starkman.
+Scientific Organization Committee:
+- Renée Hložek (Co-Chair)
+- Bryan Gaensler (Co-Chair)
+- Katie Breivik
+- Siqi Liu
+- Tina Peters
+- Mubdi Rahman
+- Michael Reid
+- Nathaniel Starkman
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
 
@@ -21,34 +29,34 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 
 <!-- MarkdownTOC -->
 
-- [Notebooks](#Notebooks)
-	- [Matplotlib General Reference](#Matplotlib_General_Reference)
+- [Notebooks](#notebooks)
+	- [Matplotlib General Reference](#matplotlib-general-reference)
 	- [](#)
-	- [Plotly General Reference](#Plotly_General_Reference)
-- [Introduction](#Introduction)
-- [Packages Summary](#Packages_Summary)
-- [Resources](#Resources)
+	- [Plotly General Reference](#plotly-general-reference)
+- [Introduction](#introduction)
+- [Packages Summary](#packages-summary)
+- [Resources](#resources)
 - [Matplotlib](#matplotlib)
 - [Plotly](#plotly)
-	- [Plotly Dash](#Plotly_Dash)
+	- [Plotly Dash](#plotly-dash)
 
 <!-- /MarkdownTOC -->
 
 
-### Notebooks [Notebooks]
+### Notebooks
 
-#### [Matplotlib General Reference](notebooks/matplotlib/matplotlib_general_reference.ipynb) [Matplotlib_General_Reference]
+#### [Matplotlib General Reference](notebooks/matplotlib/matplotlib_general_reference.ipynb)
 
 [link](https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
 
 #### 
 
 
-#### [Plotly General Reference](notebooks/plotly/plotly_general_reference.ipynb) [Plotly_General_Reference]
+#### [Plotly General Reference](notebooks/plotly/plotly_general_reference.ipynb)
 
 
 
-# Introduction [Introduction]
+# Introduction
 
 Perhaps you've seen `this`, a package built into every version of python since [2004](https://www.python.org/dev/peps/pep-0020/) that  summarizes the guiding principles of Python. There's one line, line 13 to be exact, which I think is especially salient.
 > There should be one-- and preferably only one --obvious way to do it.
@@ -59,7 +67,7 @@ If you are here to read a long summary of how to plot I am sorry to disappoint. 
 
 
 
-# Packages Summary [Packages_Summary]
+# Packages Summary
 
 
 For most, [Matplotlib](https://matplotlib.org) is the place to start and end. Matplotlib is the most popular and also one of the most feature-rich 2D plotting libraries for Python. There are many good reasons to use Matplotlib: it can make pretty much any plot, there's extensive documentation, examples and support, and it is the default plotter for package integration (ex [Pandas](https://pandas.pydata.org/index.html) or [Seaborn](https://seaborn.pydata.org)). However, Matplotlib has a number of shortcomings: it is verbose, it is not interactive[^matplotlib_interactive], and it can take a fair bit of wrangling to produce quality plots.
@@ -86,7 +94,7 @@ For a long enumeration of other available plotting libraries, see the list maint
 
 
 
-## Resources [Resources]
+## Resources
 
 Both Matplotlib and Plotly are extensively documented and I am not going to waste your time and mine by contributing yet another general summary of either. 
 
@@ -110,7 +118,7 @@ Instead,
 # Plotly
 
 
-#### Plotly Dash [Plotly_Dash]
+#### Plotly Dash
 
 [https://github.com/plotly/dash-svm](https://github.com/plotly/dash-svm)
 
