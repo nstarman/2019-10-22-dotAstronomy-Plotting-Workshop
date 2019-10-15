@@ -69,7 +69,7 @@ Perhaps you've seen `this`, a package built into every version of python since [
 
 In this case, *it* is plotting in Python, and for better or worse there are a whole lot more than one way to go about it. In this tutorial we cannot cover the myriad plotting options, so instead we will focus on just two. The first, [Matplotlib](https://matplotlib.org) is the closest Python has to the "obvious" way to do plotting; though as anyone who has used Matplotlib knows, it is often anything but obvious. The second, [Plotly](https://plot.ly), is a newer entrant to the field, but one that I think has the potential to go the distance and become the standard library for interactive plots. 
 
-If you are here to read a long summary of how to plot I am sorry to disappoint. The best way to learn Python is to use Python and we will mostly be looking at example [Jupyter Notebooks](https://jupyter.org). This README serves as both guide for this tutorial and collection of resources for future reference. We start with a brief overview of the plotting landscape
+If you are here to read a long summary of how to plot I am sorry to disappoint. The best way to learn Python is to use Python and we will mostly be looking at example [Jupyter Notebooks](https://jupyter.org). This README serves as both guide for this tutorial and collection of resources for future reference. We start with a brief overview of the plotting landscape.
 
 
 
