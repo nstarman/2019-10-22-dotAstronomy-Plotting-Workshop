@@ -30,6 +30,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 
 ### Starting Points
 
+Whether you are new to plotting in Python, or have years of experience, these notebooks will serve as useful reference. There are a 
+
 <a id="matplotlib-general-reference"></a>
 #### [Matplotlib General Reference](notebooks/matplotlib_general_reference.ipynb)
 
