@@ -26,19 +26,41 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 
 
 <a id="notebooks"></a>
-### Notebooks
+## Notebooks
+
+### Starting Points
 
 <a id="matplotlib-general-reference"></a>
-#### [Matplotlib General Reference](notebooks/matplotlib/matplotlib_general_reference.ipynb)
+#### [Matplotlib General Reference](notebooks/matplotlib_general_reference.ipynb)
 
 [link](https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
 
-<a id=""></a>
-#### 
+
+#### Matplotlib External Resources
+
+- [Python Data Science Handbook](notebooks/Python%20Data%20Science%20Handbook/)
+- [Rougier Tutorial](notebooks/Rougier%20Tutorial)
 
 
 <a id="plotly-general-reference"></a>
 #### [Plotly General Reference](notebooks/plotly/plotly_general_reference.ipynb)
+
+### Specific Use Cases
+
+<a id="interactive_matplotlib"></a>
+#### [interactive matplotlib](notebooks/interactive_matplotlib.ipynb)
+
+<a id="mpld3_demo"></a>
+#### [mpld3 Demo](notebooks/mpld3_demo.ipynb)
+
+<a id="making_movies"></a>
+#### [Making Movies](notebooks/making_movies.ipynb)
+
+
+### Power-User Plotting Technique
+
+#### [Decorators in Plotting](notebooks/decorator_plotting/plotting_with_decorators.ipynb)
+
 
 
 ## Contents
@@ -47,14 +69,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 
 - [Introduction](#introduction)
 - [Packages Summary](#packages-summary)
-	- [Resources](#resources)
+    - [Resources](#resources)
 - [Matplotlib](#matplotlib)
-	- [Interactivity](#interactivity)
-	- [Extending with Decorators](#extending-with-decorators)
+    - [Interactivity](#interactivity)
+    - [Extending with Decorators](#extending-with-decorators)
 - [Plotly](#plotly)
-		- [Plotly Dash](#plotly-dash)
+        - [Plotly Dash](#plotly-dash)
 - [Final Thoughts](#final-thoughts)
-	- [The Beauty of Log Files](#the-beauty-of-log-files)
+    - [The Beauty of Log Files](#the-beauty-of-log-files)
 
 <!-- /MarkdownTOC -->
 
