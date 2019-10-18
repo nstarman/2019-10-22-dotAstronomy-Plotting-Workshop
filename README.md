@@ -106,7 +106,7 @@ For a long enumeration of other available plotting libraries, see the list maint
 <a id="notebooks"></a>
 # Notebooks
 
-Whether you are new to plotting in Python, or have years of experience, these notebooks will serve as useful reference. The notebooks are organized into three levels: *Startin*g Points*, *Interactive Matplotlib*, and °Power-User Plotting Techniques*.
+Whether you are new to plotting in Python, or have years of experience, these notebooks will serve as useful reference. The notebooks are organized into three levels: *Starting Points*, *Interactive Matplotlib*, and *Power-User Plotting Techniques*.
 
 <a id="starting-points"></a>
 ## Starting Points
