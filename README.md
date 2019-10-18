@@ -137,6 +137,8 @@ This notebook is extensive. There are worked examples showing:
 - the basics of animations
 - changing the backend
 
+*Try making some of these plots with your data.*
+
 
 <a id="plotly-general-reference"></a>
 ### [Plotly General Reference](notebooks/plotly_general_reference.ipynb)
@@ -149,6 +151,9 @@ This notebook has worked examples showing:
 - the objet-oriented API
 
 
+*Try making some of these plots with your data.*
+
+
 <a id="interactive-matplotlib"></a>
 ## Interactive Matplotlib
 
@@ -157,24 +162,23 @@ These notebooks are for users familiar with Matplotlib. Here we will make differ
 <a id="mpld3-demo"></a>
 ### [mpld3 Demo](notebooks/mpld3_demo.ipynb)
 
-This notebook is an amalgamation of a few example notebooks from [http://mpld3.github.io](http://mpld3.github.io). *mpld3* is a plugin that modifies the behavior of matplotlib plots in-situ, adding interactivity. This is an excellent first step in interactive plotting since it uses vanilla Matplotlib.
+This notebook is an amalgamation of a few example notebooks from [mpld3's website](http://mpld3.github.io). *mpld3* is a plugin that modifies the behavior of matplotlib plots in-situ, adding interactivity. This is an excellent first step in interactive plotting since it uses vanilla Matplotlib.
 
-Try installing *mpld3* and making your plots interactive!
+*Try installing mpld3 and making your plots interactive!*
 
 
 <a id="making-movies"></a>
 ### [Making Movies](notebooks/matplotlib_movies.ipynb)
 
-This notebook details how to make and save a movie using the powerful `FunctionAnimation` and an update method for a figure. Movies are an excellent way to communicate science, especially to the public. Unfortunately, making a movie can be a fairly involved process: depending on your OS the backend can be difficult to set up, and the structure of a movie-plotting function is quite a bit different than for standard Matplotlib.
+This notebook details how to make and save a movie using the powerful `FunctionAnimation` and an update method for a figure. Movies are an excellent way to communicate science, especially to the public. Unfortunately, making a movie can be a fairly involved process: depending on your OS the backend can be difficult to set up, and the structure of a movie-plotting function is quite a bit different than for standard Matplotlib. I cover the basics of how to make a movie, and have embedded in a number of example scripts, sourced from [Jake Vanderplas](http://vanderplas.com) and [matplotlib](https://matplotlib.org/examples/animation/).
 
-Try taking some of your existing code and turning it into a movie. Anything time-dependent is an easy candidate. Alternatively, a complex figure with a number of components can often be better explained by introducing each piece separately and adding annotations. This also makes for a good movie.
+*Try taking some of your existing code and turning it into a movie. Anything time-dependent is an easy candidate. Alternatively, a complex figure with a number of components can often be better explained by introducing each piece separately and adding annotations. This also makes for a good movie.*
 
 
 <a id="matplotlib-widgets"></a>
 ### [Matplotlib Widgets](notebooks/matplotlib_widgets.ipynb)
 
-
-
+I'll be honest -- I'm relatively new to the widget scene, though I plan to rapidly correct this plotting oversight. This notebook was sourced from [Will Koehrsen](https://github.com/WillKoehrsen/Data-Analysis/tree/master/widgets) and updated for Plotly Version 4.
 
 
 <a id="power-user-plotting-technique"></a>
@@ -185,7 +189,13 @@ Matplotlib plots are great but they are not very responsive. What do I mean? che
 <a id="decorators-in-plotting"></a>
 ### [Decorators in Plotting](notebooks/plotting_with_decorators.ipynb)
 
-This notebook lays out the case for a different approach to creating plotting functions. It's a technique I've been working on recently and has proved immensely useful. If you don't know what a decorator is, you'll need to work your way through [this notebook](resources/making_decorators.ipynb). If you know how decorators work, dive right in: construct a plotting decorator and apply it to one/all of your plotting functions. Like *mpld3*, this is pretty much an instant upgrade to all of your plotting functions.
+This notebook lays out the case for a different approach to creating plotting functions. It's a technique I've been working on recently and has proved immensely useful. If you don't know what a decorator is, you'll need to work your way through [this notebook](resources/making_decorators.ipynb).
+
+*Try constructing a plotting decorator and apply it to one/all of your plotting functions. Like mpld3, this is pretty much an instant upgrade to all of your plotting functions.*
+
+*If you like plotly, try making a plotly decorator. It's the same idea, just slitghtly different execution than a matplotlib-applicable decorator*
+
+*If you are really feeling advanced, try combining this with interactivity -- mpld3 is easiest but a widget is more flexible.*
 
 
 
