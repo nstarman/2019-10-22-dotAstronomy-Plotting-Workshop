@@ -41,17 +41,16 @@ This repository is licensed under the MIT License - see the [LICENSE](LICENSE.md
         - [mpld3 Demo](#mpld3-demo)
         - [Making Movies](#making-movies)
         - [Matplotlib Widgets](#matplotlib-widgets)
-    - [Power-User Plotting Technique](#power-user-plotting-technique)
+    - [Power-User Plotting Functions](#power-user-plotting-functions)
         - [Decorators in Plotting](#decorators-in-plotting)
 - [Further Resources](#further-resources)
-            - [Plotly Dash](#plotly-dash)
 - [Final Thoughts](#final-thoughts)
-        - [The Beauty of Log Files](#the-beauty-of-log-files)
 
 <!-- /MarkdownTOC -->
 
 - - -
 
+<br>
 
 <a id="introduction"></a>
 # Introduction
@@ -63,7 +62,7 @@ In this case, *it* is plotting in Python, and for better or worse there are a wh
 
 If you are here to read a long summary of how to plot I am sorry to disappoint. The best way to learn Python is to use Python and we will mostly be looking at example [Jupyter Notebooks](https://jupyter.org). This README serves as both guide for this tutorial and collection of resources for future reference. We start with a brief overview of the plotting landscape. Next we will dive into a Matplotlib (+ mpld3) and Plotly. Last, time permitting, I will introduce the concept of decorator-augmented plotting functions.
 
-
+<br>
 
 <a id="packages-summary"></a>
 # Packages Summary
@@ -98,15 +97,15 @@ There are numerous plotting libraries which attempt to address Matplotlib's shor
 - ggplot
 - etc...
 
-For a long enumeration of other available plotting libraries, see the list maintained at the [Python Wiki](https://wiki.python.org/moin/NumericAndScientific/Plotting). Unfortunately, we will not have time to explore these great resources in detail. There are notebooks to assist in setting up *mpld3* and Plotly. *mpld3* can be used for advanced features, or just as an in-situ modifier for Matplotlib.  Plotly is a different plotting libraries with different syntax -- hardly seems worth it. But learning Plotly is just as valuable as Matplotlib for two reasons: one, because after its major overhaul it is now a powerful and rationally constructed library for interactive plots. And two, because Plotly produces HTML plots that can be easily integrated into website and other public facing media and can also be integrated with some incredible tools, like [Dash](https://dash-gallery.plotly.host/Portal/). Put together, Plotly can easily accomplish things with which Matplotlib struggles, even with the assistance of tools like *mpld3*.
+For a long enumeration of other available plotting libraries, see the list maintained at the [Python Wiki](https://wiki.python.org/moin/NumericAndScientific/Plotting). Unfortunately, we will not have time to explore these great resources in detail. There are notebooks to assist in setting up *mpld3* and Plotly. *mpld3* can be used for advanced features, or just as an in-situ modifier for Matplotlib.  Plotly is a different plotting libraries with different syntax -- hardly seems worth it. But learning Plotly is just as valuable as Matplotlib for two reasons: one, because after its major overhaul it is now a powerful and rationally constructed library for interactive plots. And two, because Plotly produces HTML plots that can be easily integrated into website and other public facing media and can also be integrated with some incredible tools, like [Dash](https://dash-gallery.plotly.host/Portal/). Put together, Plotly can easily accomplish things with which Matplotlib struggles, even with the assistance of tools such as *mpld3*.
 
 
-
+<br>
 
 <a id="notebooks"></a>
 # Notebooks
 
-Whether you are new to plotting in Python, or have years of experience, these notebooks will serve as useful reference. The notebooks are organized into three levels: *Starting Points*, *Interactive Matplotlib*, and *Power-User Plotting Techniques*.
+Whether you are new to plotting in Python, or have years of experience, these notebooks will serve as useful reference. The notebooks are organized into three levels: *Starting Points*, *Interactive Matplotlib*, and *Power-User Plotting Functions*.
 
 <a id="starting-points"></a>
 ## Starting Points
@@ -181,8 +180,8 @@ This notebook details how to make and save a movie using the powerful `FunctionA
 I'll be honest -- I'm relatively new to the widget scene, though I plan to rapidly correct this plotting oversight. This notebook was sourced from [Will Koehrsen](https://github.com/WillKoehrsen/Data-Analysis/tree/master/widgets) and updated for Plotly Version 4.
 
 
-<a id="power-user-plotting-technique"></a>
-## Power-User Plotting Technique
+<a id="power-user-plotting-functions"></a>
+## Power-User Plotting Functions
 
 Matplotlib plots are great but they are not very responsive. What do I mean? check out this notebook to find out.
 
@@ -198,45 +197,39 @@ This notebook lays out the case for a different approach to creating plotting fu
 *If you are really feeling advanced, try combining this with interactivity -- mpld3 is easiest but a widget is more flexible.*
 
 
+<br>
 
 <a id="further-resources"></a>
 # Further Resources
 
-Both Matplotlib and Plotly are extensively documented. 
+- An intro to [thinking about data visualization](https://towardsdatascience.com/the-art-and-science-of-data-visualization-6f9d706d673e).
 
-Here is an intro to [thinking about data visualization](https://towardsdatascience.com/the-art-and-science-of-data-visualization-6f9d706d673e)
+- The [towardsdatascience](https://towardsdatascience.com/data-visualization/home) website.
 
+- Jake Vanderplas's [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook), also on this repository, [here](notebooks/Python%20Data%20Science%20Handbook/).
 
-[towardsdatascience](https://towardsdatascience.com/data-visualization/home)
+- Robert Johansson's [Scientific Python Lectures](https://github.com/jrjohansson/scientific-python-lectures).
 
+- [Rougier' Matplotlib Tutorial](https://github.com/rougier/matplotlib-tutorial), downloaded [here](notebooks/Rougier%20Tutorial).
 
-- [Python Data Science Handbook](notebooks/Python%20Data%20Science%20Handbook/)
-- [Rougier Tutorial](notebooks/Rougier%20Tutorial)
+- Plotly's Dash: This is an awesome way to extend Plotly plots and make truly interactive figures.
 
-Jake Vanderplas's [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
+    - [https://github.com/plotly/dash-svm](https://github.com/plotly/dash-svm)
 
-Robert Johansson's [Scientific Python Lectures](https://github.com/jrjohansson/scientific-python-lectures)
+    - [https://dash-gallery.plotly.host/dash-svm/](https://dash-gallery.plotly.host/dash-svm/)
 
-
-<a id="plotly-dash"></a>
-#### Plotly Dash
-
-[https://github.com/plotly/dash-svm](https://github.com/plotly/dash-svm)
-
-[https://dash-gallery.plotly.host/dash-svm/](https://dash-gallery.plotly.host/dash-svm/)
-
+<br>
 
 <a id="final-thoughts"></a>
 # Final Thoughts
 
-Thank your for attending this plotting workshop. I hope this repository serves as a useful future reference. Feel free to contact me with plotting questions, and uggestions, or even about science.
+Thank your for attending this plotting workshop. I hope this repository serves as a useful future reference. Feel free to contact me with plotting questions and suggestions, or even about science.
 
-I have a few final thoughts I thought worth sharing
+I have a final thought, ancillarily related to plotting, I consider worth sharing.
 
-<a id="the-beauty-of-log-files"></a>
-### The Beauty of Log Files
-Science is meant to 
+**The Beauty of Log Files**
 
+Reproducibility and code transparency is important. Log files can be a good way to ensure both of these things. Conventionally log files are just plain text, in a plain text format. Recently I have made the switch to Markdown log files, still written in plain text format for application interoperability. The advantage of this approach is that I can specify sections in my log files, but more importantly embed figures with Markdown's `![]()` syntax. Making log files, especially with embedded images, has improved my science. If you are interested in this, check out the `logging` Python package or [`astroPHD`](https://github.com/nstarman/astroPHD) -- my repository-in-progress where I have been tinkering with some of these ideas.
 
 
 <br><br><br>
