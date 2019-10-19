@@ -173,7 +173,7 @@ This notebook is an amalgamation of a few example notebooks from [mpld3's websit
 <a id="making-movies"></a>
 ### [Making Movies](notebooks/matplotlib_movies.ipynb)
 
-This notebook details how to make and save a movie using the powerful `FunctionAnimation` and an update method for a figure. Movies are an excellent way to communicate science, especially to the public. Unfortunately, making a movie can be a fairly involved process: depending on your OS the backend can be difficult to set up, and the structure of a movie-plotting function is quite a bit different than for standard Matplotlib. I cover the basics of how to make a movie, and have embedded in a number of example scripts, sourced from [Jake Vanderplas](http://vanderplas.com) and [matplotlib](https://matplotlib.org/examples/animation/).
+This notebook details how to make and save a movie using the powerful `FuncAnimation` and an update method for a figure. Movies are an excellent way to communicate science, especially to the public. Unfortunately, making a movie can be a fairly involved process: depending on your OS the backend can be difficult to set up, and the structure of a movie-plotting function is quite a bit different than for standard Matplotlib. I cover the basics of how to make a movie, and have embedded in a number of example scripts, sourced from [Jake Vanderplas](http://vanderplas.com) and [matplotlib](https://matplotlib.org/examples/animation/).
 
 *Try taking some of your existing code and turning it into a movie. Anything time-dependent is an easy candidate. Alternatively, a complex figure with a number of components can often be better explained by introducing each piece separately and adding annotations. This also makes for a good movie.*
 
