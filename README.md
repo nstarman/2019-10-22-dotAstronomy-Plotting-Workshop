@@ -146,12 +146,12 @@ This notebook is extensive. There are worked examples showing:
 <a id="plotly-general-reference"></a>
 ### [Plotly General Reference](notebooks/plotly_general_reference.ipynb)
 
-This notebook covers the basic features of Plotly Version 4 -- a major update making plotly work entirely offline and overhauling the API. It is much improved and if you disliked the Plotly of yester-year (I did), Version 4 should make you reconsider. This notebook draws heavily from the Plotly documentation which, though improving, is still fairly unorganized. Hopefully this notebook will present a more coherent picture of Plotly's considerable capabilities.
+This notebook covers the basic features of Plotly Version 4 -- a major update making plotly work entirely offline and overhauling the API. It is much improved and if you disliked the Plotly of yesteryear (I did), Version 4 should make you reconsider. This notebook draws heavily from the Plotly documentation which, though improving, is still fairly unorganized. Hopefully this notebook will present a more coherent picture of Plotly's considerable capabilities.
 
 This notebook has worked examples showing:
 
 - plotly_express, from simple plots to animated plots
-- the objet-oriented API
+- the object-oriented API
 
 
 *Try making some of these plots with your data.*
@@ -199,7 +199,7 @@ This notebook lays out the case for a different approach to creating plotting fu
 
 *Try constructing a plotting decorator and apply it to one/all of your plotting functions. Like mpld3, this is pretty much an instant upgrade to all of your plotting functions.*
 
-*If you like plotly, try making a plotly decorator. It's the same idea, just slitghtly different execution than a matplotlib-applicable decorator*
+*If you like plotly, try making a plotly decorator. It's the same idea, just slightly different execution than a matplotlib-applicable decorator*
 
 *If you are really feeling advanced, try combining this with interactivity -- mpld3 is easiest but a widget is more flexible.*
 
@@ -221,7 +221,7 @@ This notebook lays out the case for a different approach to creating plotting fu
 
 - [Rougier' Matplotlib Tutorial](https://github.com/rougier/matplotlib-tutorial), downloaded [here](resources/Rougier%20Tutorial).
 
-- Plotly's Dash: This is an awesome way to extend Plotly plots and make truly interactive figures.
+- Plotly's Dash: This is an awesome way to extend plotly plots and make truly interactive figures.
 
     - [https://github.com/plotly/dash-svm](https://github.com/plotly/dash-svm)
 
@@ -234,11 +234,11 @@ This notebook lays out the case for a different approach to creating plotting fu
 
 Thank your for attending this plotting workshop. I hope this repository serves as a useful future reference. Feel free to contact me with plotting questions and suggestions, or even about science.
 
-I have a final thought, ancillarily related to plotting, I consider worth sharing.
+I have a final thought, related to plotting, I consider worth sharing.
 
 **The Beauty of Log Files**
 
-Reproducibility and code transparency is important. Log files can be a good way to ensure both of these things. Conventionally log files are just plain text, in a plain text format. Recently I have made the switch to Markdown log files, still written in plain text format for application interoperability. The advantage of this approach is that I can specify sections in my log files, but more importantly embed figures with Markdown's `![]()` syntax. Making log files, especially with embedded images, has improved my science. If you are interested in this, check out the `logging` Python package or [`astroPHD`](https://github.com/nstarman/astroPHD) -- my repository-in-progress where I have been tinkering with some of these ideas.
+Reproducibility and code transparency is important. Log files can be a good way to ensure both these things. Conventionally log files are just plain text, in a plain text format. Recently I have made the switch to Markdown log files, still written in plain text format for application interoperability. The advantage of this approach is that I can specify sections in my log files, but more importantly embed figures with Markdown's `![]()` syntax. Making log files, especially with embedded images, has improved my science. If you are interested in this, check out the `logging` Python package or [`astroPHD`](https://github.com/nstarman/astroPHD) -- my repository-in-progress where I have been tinkering with some of these ideas.
 
 
 <br><br><br>
