@@ -2,11 +2,13 @@
 
 [![DOI](https://zenodo.org/badge/214871831.svg)](https://zenodo.org/badge/latestdoi/214871831)
 
+<br>
 
 ## Welcome
 
 Welcome to the 11th .Astronomy Conference! For the conference website, [click here](https://www.dotastronomy.com/eleven). This GitHub repository is for the [Plotting Workshop on Tuesday, October 22 at 3:30-4:30 pm](util/Plotting_Workshop.ics).
 
+<br>
 
 ## Attribution
 
@@ -26,6 +28,7 @@ Scientific Organization Committee:
 This repository is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details. Contained within this repository are examples, notebooks, and documents not written by this author.  This author claims no credit for their work and has made good-faith effort to properly document and attribute all such documents. Their contributions are governed by their own license agreements.
 </font>
 
+<br>
 
 ## Contents
 
@@ -179,6 +182,9 @@ This notebook details how to make and save a movie using the powerful `FunctionA
 
 I'll be honest -- I'm relatively new to the widget scene, though I plan to rapidly correct this plotting oversight. This notebook was sourced from [Will Koehrsen](https://github.com/WillKoehrsen/Data-Analysis/tree/master/widgets) and updated for Plotly Version 4.
 
+*Try taking some of your existing plots, matplotlib or plotly, and adding widget control!*
+
+<br>
 
 <a id="power-user-plotting-functions"></a>
 ## Power-User Plotting Functions
