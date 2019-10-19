@@ -211,13 +211,15 @@ This notebook lays out the case for a different approach to creating plotting fu
 
 - An intro to [thinking about data visualization](https://towardsdatascience.com/the-art-and-science-of-data-visualization-6f9d706d673e).
 
+- A Matplotlib [cheat sheet](resources/Python_Matplotlib_Cheat_Sheet.pdf) 
+
 - The [towardsdatascience](https://towardsdatascience.com/data-visualization/home) website.
 
-- Jake Vanderplas's [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook), also on this repository, [here](notebooks/Python%20Data%20Science%20Handbook/).
+- Jake Vanderplas's [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook), also on this repository, [here](resources/Python%20Data%20Science%20Handbook/).
 
 - Robert Johansson's [Scientific Python Lectures](https://github.com/jrjohansson/scientific-python-lectures).
 
-- [Rougier' Matplotlib Tutorial](https://github.com/rougier/matplotlib-tutorial), downloaded [here](notebooks/Rougier%20Tutorial).
+- [Rougier' Matplotlib Tutorial](https://github.com/rougier/matplotlib-tutorial), downloaded [here](resources/Rougier%20Tutorial).
 
 - Plotly's Dash: This is an awesome way to extend Plotly plots and make truly interactive figures.
 
