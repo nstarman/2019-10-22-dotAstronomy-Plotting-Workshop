@@ -195,7 +195,7 @@ Matplotlib plots are great but they are not very responsive. What do I mean? che
 <a id="decorators-in-plotting"></a>
 ### [Decorators in Plotting](notebooks/plotting_with_decorators.ipynb)
 
-This notebook lays out the case for a different approach to creating plotting functions. It's a technique I've been working on recently and has proved immensely useful. If you don't know what a decorator is, you'll need to work your way through [this notebook](resources/making_decorators.ipynb).
+This notebook lays out the case for a different approach to creating plotting functions. It's a technique I've been working on recently (see [starkplot](https://github.com/nstarman/starkplot) for details) and has proved immensely useful. If you don't know what a decorator is, you'll need to work your way through [this notebook](resources/making_decorators.ipynb).
 
 *Try constructing a plotting decorator and apply it to one/all of your plotting functions. Like mpld3, this is pretty much an instant upgrade to all of your plotting functions.*
 
