@@ -2,7 +2,6 @@
 
 [![DOI](https://zenodo.org/badge/214871831.svg)](https://zenodo.org/badge/latestdoi/214871831)
 
-<br>
 
 ## Welcome
 
@@ -50,6 +49,8 @@ This repository is licensed under the MIT License - see the [LICENSE](LICENSE.md
 - [Final Thoughts](#final-thoughts)
 
 <!-- /MarkdownTOC -->
+
+<br>
 
 - - -
 
