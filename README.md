@@ -153,6 +153,12 @@ This notebook has worked examples showing:
 
 - plotly_express, from simple plots to animated plots
 - the object-oriented API
+- making layouts
+- adjusting the layout
+- adding plots to different axes and figures
+- saving figures
+- text formatting
+- etc.
 
 
 *Try making some of these plots with your data.*
