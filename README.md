@@ -14,6 +14,7 @@ Welcome to the 11th .Astronomy Conference! For the conference website, [click he
 Author: **Nathaniel Starkman** - *Graduate Student @ UofT* - [website](http://www.astro.utoronto.ca/~starkman/) -- [github](https://github.com/nstarman)
 
 Scientific Organization Committee:
+
 - Renée Hložek (Co-Chair)
 - Bryan Gaensler (Co-Chair)
 - Katie Breivik
