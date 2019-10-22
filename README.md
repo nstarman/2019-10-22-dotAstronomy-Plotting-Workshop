@@ -95,6 +95,9 @@ There are numerous plotting libraries which attempt to address Matplotlib's shor
 
 - [Altair](https://altair-viz.github.io/index.html)
 	> "a declarative statistical visualization library for Python, based on Vega and Vega-Lite." ([Altair](https://altair-viz.github.io/index.html))
+   
+- [Vega-lite](https://vega.github.io/vega-lite/)
+    > "Vega-Lite is a high-level grammar of interactive graphics. It provides a concise JSON syntax for rapidly generating visualizations to support analysis. Vega-Lite specifications can be compiled to Vega specifications" ([Vega-lite](https://vega.github.io/vega-lite/))
 
 - [Plotly](https://plot.ly)
 	> "Plotly is a collaborative browser-based plotting and analytics platform. You can generate graphs and analyze data from the in-browser Python sandbox (numpy supported) or the Plotly API (download here). Plotly supports interactive graphs with IPython notebooks. Graphs are interactive, can be styled with Python or the GUI, and sharable by link. Scripts, graphs, and data can be shared, collaboratively edited, and stored and run in Plotly." ([Python Wiki](https://wiki.python.org/moin/NumericAndScientific/Plotting))
@@ -102,7 +105,7 @@ There are numerous plotting libraries which attempt to address Matplotlib's shor
 - ggplot
 - etc...
 
-For a long enumeration of other available plotting libraries, see the list maintained at the [Python Wiki](https://wiki.python.org/moin/NumericAndScientific/Plotting). Unfortunately, we will not have time to explore these great resources in detail. There are notebooks to assist in setting up *mpld3* and Plotly. *mpld3* can be used for advanced features, or just as an in-situ modifier for Matplotlib.  Plotly is a different plotting libraries with different syntax -- hardly seems worth it. But learning Plotly is just as valuable as Matplotlib for two reasons: one, because after its major overhaul it is now a powerful and rationally constructed library for interactive plots. And two, because Plotly produces HTML plots that can be easily integrated into website and other public facing media and can also be integrated with some incredible tools, like [Dash](https://dash-gallery.plotly.host/Portal/). Put together, Plotly can easily accomplish things with which Matplotlib struggles, even with the assistance of tools such as *mpld3*.
+For a long enumeration of other available plotting libraries, see the list maintained at the [Python Wiki](https://wiki.python.org/moin/NumericAndScientific/Plotting). Unfortunately, we will not have time to explore these great resources in detail. There are notebooks to assist in setting up *mpld3* and Plotly. *mpld3* can be used for advanced features, or just as an in-situ modifier for Matplotlib.  Plotly is a different plotting libraries with different syntax -- hardly seems worth it. But learning Plotly is just as valuable as Matplotlib for two reasons: one, because after its major overhaul it is now a powerful and rationally constructed library for interactive plots. And two, because Plotly produces HTML plots that can be easily integrated into website and other public facing media and can also be integrated with some incredible tools, like [Dash](https://dash-gallery.plotly.host/Portal/) or [Glue](http://glueviz.org/index.html). Put together, Plotly can easily accomplish things with which Matplotlib struggles, even with the assistance of tools such as *mpld3*.
 
 
 <br>
@@ -233,6 +236,8 @@ This notebook lays out the case for a different approach to creating plotting fu
     - [https://github.com/plotly/dash-svm](https://github.com/plotly/dash-svm)
 
     - [https://dash-gallery.plotly.host/dash-svm/](https://dash-gallery.plotly.host/dash-svm/)
+
+- [Glue](http://glueviz.org/index.html): Prof. Alyssa Goodman just gave an awesome talk on Glue and the future of interactive figures. Definitely check this out!
 
 <br>
 
